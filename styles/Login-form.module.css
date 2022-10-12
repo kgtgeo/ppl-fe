@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+ }
+ 
+ .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+ }
+ 
+ @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+   animation: App-logo-spin infinite 20s linear;
+  }
+ }
+ 
+ .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+ }
+ 
+ .App-link {
+  color: #61dafb;
+ }
+ 
+ .body {
+  margin: 0;
+  width: 100vw;
+  height: 120vh;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ .leftlogin {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+ 
+ .leftlogin h1 {
+  color: #063f75;
+ }
+ 
+ .bottomleft {
+  position: absolute;
+  bottom: 100px;
+  left: 200px;
+  color: #fff;
+ }
+ .bottomleft h1 {
+  color: #fff;
+ }
+ .rightlogin {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ .cardlogin {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  padding: 30px 35px;
+  background-color: #fff;
+  border-radius: 20px;
+ }
+ 
+ .cardlogin h1 {
+  color: #063f75;
+  font-weight: 800;
+  margin: 0;
+ }
+ 
+ .chart {
+  width: 100%;
+  size: auto;
+ }
+ 
+ .formgroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px 0px;
+ }
+ 
+ .formfield {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  margin-bottom: -1px;
+  padding: 15px;
+  background-color: #fff;
+  color: #000;
+  font-size: 12pt;
+  box-sizing: border-box;
+  outline: none;
+ }
+ 
+ .formgroup label {
+  color: #000;
+  margin-bottom: 10px;
+ }
+ .atas {
+  margin-top: -100px;
+ }
+ .formerror {
+  display: block;
+  color: #fff;
+  font-size: 0.8em;
+ }
+ 
+ .formfield ::placeholder {
+  color: #f0ffff94;
+ }
+ 
+ .button {
+  width: 40%;
+  padding: 16px 0px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-weight: 900;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 15px;
+  background: #063f75;
+  color: #fff;
+  margin-bottom: 150px;
+ }
+ 
+ @media (max-width: 950px) {
+  .cardlogin {
+   width: 100%;
+  }
+ }
+ 
+ @media (max-width: 600px) {
+  .body {
+   flex-direction: column;
+  }
+ 
+  .leftlogin {
+   width: 100%;
+   height: auto;
+  }
+ 
+  .rightlogin {
+   width: 100%;
+   height: auto;
+  }
+ 
+  .cardlogin {
+   width: 90%;
+  }
+ }
+ 
+ @keyframes App-logo-spin {
+  from {
+   transform: rotate(0deg);
+  }
+  to {
+   transform: rotate(360deg);
+  }
+ }
+ 
