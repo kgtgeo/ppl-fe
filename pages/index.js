@@ -6,31 +6,31 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Starting Page</title>
-        <meta name="description" content="Starting page" />
+        <title>FishMark</title>
+        <meta name="description" content="Starting Page" />
         <link rel="icon" href="/fish-market.png" />
       </Head>
 
       <main className={styles.main}>
         <Image
-          src="/fish-market-logo.jpg" alt="FishMarket Logo" width={72} height={72}
+          src="/fish-market-logo.jpg" alt="FishMark Logo" width={72} height={72}
         />
 
         <h1 className={styles.title}>
-          Lorem ipsum dolor sit
+          FishMark
         </h1>
 
         <p className={styles.description}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec luctus lorem.
+          Temukan Ikan Hias Impianmu Di Sini!
         </p>
 
         <div className={styles.grid}>
-          <a href="" className={styles.card}>
+          <a href="/register" className={styles.card}>
             <h2>Penjual &rarr;</h2>
             <p>Memilih <i>role</i> sebagai penjual.</p>
           </a>
 
-          <a href="" className={styles.card}>
+          <a href="/register" className={styles.card}>
             <h2>Pembeli &rarr;</h2>
             <p>Memilih <i>role</i> sebagai pembeli.</p>
           </a>
